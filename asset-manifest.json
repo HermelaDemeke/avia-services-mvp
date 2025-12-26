@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/HermelaDemeke/avia-services-mvp.git/static/css/main.974ad0ed.css",
-    "main.js": "/HermelaDemeke/avia-services-mvp.git/static/js/main.c72cdabb.js",
-    "index.html": "/HermelaDemeke/avia-services-mvp.git/index.html",
-    "main.974ad0ed.css.map": "/HermelaDemeke/avia-services-mvp.git/static/css/main.974ad0ed.css.map",
-    "main.c72cdabb.js.map": "/HermelaDemeke/avia-services-mvp.git/static/js/main.c72cdabb.js.map"
+    "main.css": "/avia-services-mvp/static/css/main.974ad0ed.css",
+    "main.js": "/avia-services-mvp/static/js/main.c72cdabb.js",
+    "index.html": "/avia-services-mvp/index.html",
+    "main.974ad0ed.css.map": "/avia-services-mvp/static/css/main.974ad0ed.css.map",
+    "main.c72cdabb.js.map": "/avia-services-mvp/static/js/main.c72cdabb.js.map"
   },
   "entrypoints": [
     "static/css/main.974ad0ed.css",
