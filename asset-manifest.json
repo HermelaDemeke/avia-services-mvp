@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/HermelaDemeke/avia-services-mvp.git/static/css/main.974ad0ed.css",
+    "main.js": "/HermelaDemeke/avia-services-mvp.git/static/js/main.c72cdabb.js",
+    "index.html": "/HermelaDemeke/avia-services-mvp.git/index.html",
+    "main.974ad0ed.css.map": "/HermelaDemeke/avia-services-mvp.git/static/css/main.974ad0ed.css.map",
+    "main.c72cdabb.js.map": "/HermelaDemeke/avia-services-mvp.git/static/js/main.c72cdabb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.974ad0ed.css",
+    "static/js/main.c72cdabb.js"
+  ]
+}
