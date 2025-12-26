@@ -1,0 +1,159 @@
+/* Reset and Base Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body {
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  line-height: 1.6;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Light Mode (Default) */
+.light-mode {
+  background-color: #ffffff;
+  color: #1e293b;
+}
+
+.light-mode ::selection {
+  background-color: rgba(37, 99, 235, 0.2);
+  color: #1e293b;
+}
+
+/* Dark Mode */
+.dark-mode {
+  background-color: #0f172a;
+  color: #f1f5f9;
+}
+
+.dark-mode ::selection {
+  background-color: rgba(59, 130, 246, 0.3);
+  color: #f1f5f9;
+}
+
+/* Custom Scrollbar for Light Mode */
+.light-mode ::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+
+.light-mode ::-webkit-scrollbar-thumb {
+  background: linear-gradient(135deg, #2563eb, #7c3aed);
+}
+
+.light-mode ::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(135deg, #1d4ed8, #6d28d9);
+}
+
+/* Custom Scrollbar for Dark Mode */
+.dark-mode ::-webkit-scrollbar-track {
+  background: #1e293b;
+}
+
+.dark-mode ::-webkit-scrollbar-thumb {
+  background: linear-gradient(135deg, #3b82f6, #8b5cf6);
+}
+
+.dark-mode ::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(135deg, #2563eb, #7c3aed);
+}
+
+/* Mobile-First Responsive Design */
+@media (max-width: 768px) {
+  .container {
+    padding: 0 1rem !important;
+  }
+
+  .hero-title {
+    font-size: 2.2rem !important;
+  }
+
+  .hero-subtitle {
+    font-size: 1rem !important;
+  }
+
+  .section-title {
+    font-size: 1.5rem !important;
+  }
+
+  .services-grid {
+    grid-template-columns: 1fr !important;
+    gap: 1rem !important;
+  }
+
+  .stats {
+    gap: 1.5rem !important;
+  }
+
+  .stat-number {
+    font-size: 1.8rem !important;
+  }
+
+  .info-grid {
+    grid-template-columns: 1fr !important;
+  }
+}
+
+/* Tablet */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .services-grid {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+
+  .container {
+    padding: 0 2rem !important;
+  }
+}
+
+/* Desktop */
+@media (min-width: 1025px) {
+  .services-grid {
+    grid-template-columns: repeat(3, 1fr) !important;
+  }
+
+  .info-grid {
+    grid-templatecolumns: repeat(4, 1fr) !important;
+  }
+}
+
+/* Smooth theme transitions */
+.App,
+.card,
+.button,
+.input {
+  transition: background-color 0.3s ease, color 0.3s ease,
+    border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Focus styles for accessibility */
+:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+/* Print styles */
+@media print {
+  .no-print {
+    display: none !important;
+  }
+
+  body {
+    color: black !important;
+    background: white !important;
+  }
+
+  a {
+    text-decoration: underline !important;
+    color: black !important;
+  }
+}
